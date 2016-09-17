@@ -431,7 +431,7 @@
             </objects>
             <point key="canvasLocation" x="439.5" y="-551"/>
         </scene>
-        <!--Second-->
+        <!--History-->
         <scene sceneID="wg7-f3-ORb">
             <objects>
                 <viewController id="8rJ-Kc-sve" customClass="SecondViewController" sceneMemberID="viewController">
@@ -465,7 +465,7 @@
                             <constraint firstAttribute="centerY" secondItem="zEq-FU-wV5" secondAttribute="centerY" id="qzY-Ky-pLD"/>
                         </constraints>
                     </view>
-                    <tabBarItem key="tabBarItem" title="Second" image="second" id="cPa-gy-q4n"/>
+                    <tabBarItem key="tabBarItem" title="History" image="history" id="cPa-gy-q4n"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="4Nw-L8-lE0" sceneMemberID="firstResponder"/>
             </objects>
@@ -499,6 +499,42 @@
             </objects>
             <point key="canvasLocation" x="-197" y="768"/>
         </scene>
+        <!--Authorize-->
+        <scene sceneID="GYy-yI-ro1">
+            <objects>
+                <viewController id="dFi-sz-KlE" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="Pqv-lA-IqZ"/>
+                        <viewControllerLayoutGuide type="bottom" id="HJV-mb-abB"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="POE-8b-g6S">
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                    <tabBarItem key="tabBarItem" title="Authorize" image="rule" id="YbX-D4-HVk"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="flg-ws-ZXP" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="163.5" y="538"/>
+        </scene>
+        <!--Top Up-->
+        <scene sceneID="RZ2-ms-VUH">
+            <objects>
+                <viewController id="7Gj-ix-WC6" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="wlL-lE-9bK"/>
+                        <viewControllerLayoutGuide type="bottom" id="m70-3f-LEN"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="egI-17-QKL">
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                    <tabBarItem key="tabBarItem" title="Top Up" image="topup" id="Vwk-dy-yF1"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="qaN-K8-HZm" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-984" y="700"/>
+        </scene>
         <!--Tab Bar Controller-->
         <scene sceneID="yl2-sM-qoP">
             <objects>
@@ -512,17 +548,40 @@
                     <connections>
                         <segue destination="9pv-A4-QxB" kind="relationship" relationship="viewControllers" id="u7Y-xg-7CH"/>
                         <segue destination="8rJ-Kc-sve" kind="relationship" relationship="viewControllers" id="lzU-1b-eKA"/>
-                        <segue destination="h08-fT-r0m" kind="relationship" relationship="viewControllers" id="gZ0-bp-Cn3"/>
+                        <segue destination="7Gj-ix-WC6" kind="relationship" relationship="viewControllers" id="v9S-SB-hDH"/>
+                        <segue destination="dFi-sz-KlE" kind="relationship" relationship="viewControllers" id="XbU-fx-R2y"/>
+                        <segue destination="ehu-g1-uKH" kind="relationship" relationship="viewControllers" id="fTO-F9-8aI"/>
                     </connections>
                 </tabBarController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="HuB-VB-40B" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="0.0" y="0.0"/>
         </scene>
+        <!--Mission-->
+        <scene sceneID="WkJ-zD-pun">
+            <objects>
+                <viewController id="ehu-g1-uKH" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="hYF-2S-QlB"/>
+                        <viewControllerLayoutGuide type="bottom" id="pL5-dX-Osx"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="1h6-6Z-jkw">
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                    <tabBarItem key="tabBarItem" title="Mission" image="work" id="D3K-5y-Whr"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="OFk-Yh-km0" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="549" y="-44"/>
+        </scene>
     </scenes>
     <resources>
         <image name="bg" width="1080" height="1920"/>
-        <image name="profile" width="50" height="45"/>
-        <image name="second" width="30" height="30"/>
+        <image name="history" width="50" height="50"/>
+        <image name="profile" width="50" height="50"/>
+        <image name="rule" width="50" height="50"/>
+        <image name="topup" width="50" height="50"/>
+        <image name="work" width="50" height="50"/>
     </resources>
 </document>
