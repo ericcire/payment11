@@ -7,7 +7,9 @@ target 'payment11' do
 
   # Pods for payment11
   pod 'QRCodeReaderViewController'
-  pod 'Alamofire'
+  pod 'AFNetworking'
+  pod 'YLProgressBar'
+  pod 'JGProgressHUD'
 
   target 'payment11Tests' do
     inherit! :search_paths

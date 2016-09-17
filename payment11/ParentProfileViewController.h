@@ -7,8 +7,21 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "Profile.h"
 
-@interface ParentProfileViewController : UIViewController
+@class YLProgressBar;
+
+@interface ParentProfileViewController : UIViewController <UITableViewDataSource, UITableViewDelegate>
+
+@property (nonatomic, strong) Profile *profile;
+
+@property (weak, nonatomic) IBOutlet UILabel *profileTitleLabel;
+@property (weak, nonatomic) IBOutlet UILabel *remainLabel;
+@property (weak, nonatomic) IBOutlet UILabel *budgetUsedLabel;
+@property (weak, nonatomic) IBOutlet UILabel *budgetLimitLabel;
+@property (nonatomic, strong) IBOutlet YLProgressBar *progressBarFlatAnimated;
+@property (weak, nonatomic) IBOutlet UILabel *budgetPercentLabel;
+@property (weak, nonatomic) IBOutlet UITableView *historyTableView;
 
 
 @end

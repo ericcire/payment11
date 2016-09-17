@@ -20,6 +20,9 @@
 		AE605C261D8D652400DBFDEF /* payment11Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = AE605C251D8D652400DBFDEF /* payment11Tests.m */; };
 		AE605C311D8D652400DBFDEF /* payment11UITests.m in Sources */ = {isa = PBXBuildFile; fileRef = AE605C301D8D652400DBFDEF /* payment11UITests.m */; };
 		AE605C401D8D6ED700DBFDEF /* ScanViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AE605C3F1D8D6ED700DBFDEF /* ScanViewController.m */; };
+		AE605C431D8DD95200DBFDEF /* HistoryTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = AE605C421D8DD95200DBFDEF /* HistoryTableViewCell.m */; };
+		AE605C461D8DE0EA00DBFDEF /* Constant.m in Sources */ = {isa = PBXBuildFile; fileRef = AE605C451D8DE0EA00DBFDEF /* Constant.m */; };
+		AE605C491D8DF76300DBFDEF /* Profile.m in Sources */ = {isa = PBXBuildFile; fileRef = AE605C481D8DF76300DBFDEF /* Profile.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -64,6 +67,12 @@
 		AE605C321D8D652400DBFDEF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		AE605C3E1D8D6ED700DBFDEF /* ScanViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ScanViewController.h; sourceTree = "<group>"; };
 		AE605C3F1D8D6ED700DBFDEF /* ScanViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ScanViewController.m; sourceTree = "<group>"; };
+		AE605C411D8DD95200DBFDEF /* HistoryTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HistoryTableViewCell.h; sourceTree = "<group>"; };
+		AE605C421D8DD95200DBFDEF /* HistoryTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HistoryTableViewCell.m; sourceTree = "<group>"; };
+		AE605C441D8DE0EA00DBFDEF /* Constant.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Constant.h; sourceTree = "<group>"; };
+		AE605C451D8DE0EA00DBFDEF /* Constant.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Constant.m; sourceTree = "<group>"; };
+		AE605C471D8DF76300DBFDEF /* Profile.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Profile.h; sourceTree = "<group>"; };
+		AE605C481D8DF76300DBFDEF /* Profile.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Profile.m; sourceTree = "<group>"; };
 		C27ED7DDA72F96F5A1F2B304 /* Pods-payment11.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-payment11.debug.xcconfig"; path = "Pods/Target Support Files/Pods-payment11/Pods-payment11.debug.xcconfig"; sourceTree = "<group>"; };
 		C38CC455A52D0EDBE18FEF96 /* Pods-payment11UITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-payment11UITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-payment11UITests/Pods-payment11UITests.release.xcconfig"; sourceTree = "<group>"; };
 		D2EF9282BB243EE8B59E39DF /* Pods-payment11UITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-payment11UITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-payment11UITests/Pods-payment11UITests.debug.xcconfig"; sourceTree = "<group>"; };
@@ -147,6 +156,12 @@
 				AE605C191D8D652400DBFDEF /* LaunchScreen.storyboard */,
 				AE605C1C1D8D652400DBFDEF /* Info.plist */,
 				AE605C081D8D652400DBFDEF /* Supporting Files */,
+				AE605C411D8DD95200DBFDEF /* HistoryTableViewCell.h */,
+				AE605C421D8DD95200DBFDEF /* HistoryTableViewCell.m */,
+				AE605C441D8DE0EA00DBFDEF /* Constant.h */,
+				AE605C451D8DE0EA00DBFDEF /* Constant.m */,
+				AE605C471D8DF76300DBFDEF /* Profile.h */,
+				AE605C481D8DF76300DBFDEF /* Profile.m */,
 			);
 			path = payment11;
 			sourceTree = "<group>";
@@ -454,7 +469,10 @@
 			files = (
 				AE605C131D8D652400DBFDEF /* SecondViewController.m in Sources */,
 				AE605C401D8D6ED700DBFDEF /* ScanViewController.m in Sources */,
+				AE605C461D8DE0EA00DBFDEF /* Constant.m in Sources */,
+				AE605C431D8DD95200DBFDEF /* HistoryTableViewCell.m in Sources */,
 				AE605C0D1D8D652400DBFDEF /* AppDelegate.m in Sources */,
+				AE605C491D8DF76300DBFDEF /* Profile.m in Sources */,
 				AE605C101D8D652400DBFDEF /* ParentProfileViewController.m in Sources */,
 				AE605C0A1D8D652400DBFDEF /* main.m in Sources */,
 			);
