@@ -1,5 +1,5 @@
 //
-//  FirstViewController.h
+//  ParentProfileViewController.h
 //  payment11
 //
 //  Created by Eric Yu on 17/9/2016.
@@ -8,7 +8,7 @@
 
 #import <UIKit/UIKit.h>
 
-@interface FirstViewController : UIViewController
+@interface ParentProfileViewController : UIViewController
 
 
 @end

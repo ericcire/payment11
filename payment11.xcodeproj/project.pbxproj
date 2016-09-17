@@ -12,7 +12,7 @@
 		926512AAEF852476CBB6A207 /* Pods_payment11.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D5B42233004FE9FBD510EE14 /* Pods_payment11.framework */; };
 		AE605C0A1D8D652400DBFDEF /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = AE605C091D8D652400DBFDEF /* main.m */; };
 		AE605C0D1D8D652400DBFDEF /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = AE605C0C1D8D652400DBFDEF /* AppDelegate.m */; };
-		AE605C101D8D652400DBFDEF /* FirstViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AE605C0F1D8D652400DBFDEF /* FirstViewController.m */; };
+		AE605C101D8D652400DBFDEF /* ParentProfileViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AE605C0F1D8D652400DBFDEF /* ParentProfileViewController.m */; };
 		AE605C131D8D652400DBFDEF /* SecondViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AE605C121D8D652400DBFDEF /* SecondViewController.m */; };
 		AE605C161D8D652400DBFDEF /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AE605C141D8D652400DBFDEF /* Main.storyboard */; };
 		AE605C181D8D652400DBFDEF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AE605C171D8D652400DBFDEF /* Assets.xcassets */; };
@@ -48,8 +48,8 @@
 		AE605C091D8D652400DBFDEF /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		AE605C0B1D8D652400DBFDEF /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		AE605C0C1D8D652400DBFDEF /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		AE605C0E1D8D652400DBFDEF /* FirstViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FirstViewController.h; sourceTree = "<group>"; };
-		AE605C0F1D8D652400DBFDEF /* FirstViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FirstViewController.m; sourceTree = "<group>"; };
+		AE605C0E1D8D652400DBFDEF /* ParentProfileViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ParentProfileViewController.h; sourceTree = "<group>"; };
+		AE605C0F1D8D652400DBFDEF /* ParentProfileViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ParentProfileViewController.m; sourceTree = "<group>"; };
 		AE605C111D8D652400DBFDEF /* SecondViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SecondViewController.h; sourceTree = "<group>"; };
 		AE605C121D8D652400DBFDEF /* SecondViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SecondViewController.m; sourceTree = "<group>"; };
 		AE605C151D8D652400DBFDEF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -136,8 +136,8 @@
 			children = (
 				AE605C0B1D8D652400DBFDEF /* AppDelegate.h */,
 				AE605C0C1D8D652400DBFDEF /* AppDelegate.m */,
-				AE605C0E1D8D652400DBFDEF /* FirstViewController.h */,
-				AE605C0F1D8D652400DBFDEF /* FirstViewController.m */,
+				AE605C0E1D8D652400DBFDEF /* ParentProfileViewController.h */,
+				AE605C0F1D8D652400DBFDEF /* ParentProfileViewController.m */,
 				AE605C111D8D652400DBFDEF /* SecondViewController.h */,
 				AE605C121D8D652400DBFDEF /* SecondViewController.m */,
 				AE605C3E1D8D6ED700DBFDEF /* ScanViewController.h */,
@@ -455,7 +455,7 @@
 				AE605C131D8D652400DBFDEF /* SecondViewController.m in Sources */,
 				AE605C401D8D6ED700DBFDEF /* ScanViewController.m in Sources */,
 				AE605C0D1D8D652400DBFDEF /* AppDelegate.m in Sources */,
-				AE605C101D8D652400DBFDEF /* FirstViewController.m in Sources */,
+				AE605C101D8D652400DBFDEF /* ParentProfileViewController.m in Sources */,
 				AE605C0A1D8D652400DBFDEF /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
