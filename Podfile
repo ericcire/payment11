@@ -10,6 +10,7 @@ target 'payment11' do
   pod 'AFNetworking'
   pod 'YLProgressBar'
   pod 'JGProgressHUD'
+  pod 'SDWebImage'
 
   target 'payment11Tests' do
     inherit! :search_paths
