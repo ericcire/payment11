@@ -11,6 +11,7 @@
 #import "YLProgressBar.h"
 #import "HistoryTableViewCell.h"
 #import "Constant.h"
+#import "SectionHeaderView.h"
 
 @interface ParentProfileViewController ()
 
@@ -55,6 +56,8 @@
     self.budgetLimitLabel.text = [NSString stringWithFormat:@"out of $%@", self.profile.budgetLimit].uppercaseString;
     
     self.budgetPercentLabel.text = [NSString stringWithFormat:@"used %f%%", [self.profile usedBudgetPercent].floatValue].uppercaseString;
+    
+    [self.progressBarFlatAnimated setProgress:[self.profile usedBudgetPercent].floatValue/100];
 }
 
 - (void)initFlatAnimatedProgressBar
@@ -64,6 +67,17 @@
     _progressBarFlatAnimated.stripesOrientation       = YLProgressBarStripesOrientationVertical;
     _progressBarFlatAnimated.stripesDirection         = YLProgressBarStripesDirectionLeft;
     _progressBarFlatAnimated.stripesAnimationVelocity = 1.8f;
+}
+
+- (UIView*)tableView:(UITableView *)tableView viewForHeaderInSection:(NSInteger)section
+{
+    SectionHeaderView *sectionHeaderView = [[[NSBundle mainBundle] loadNibNamed:@"SectionHeaderView" owner:self options:nil] lastObject];
+    
+    if ([self.profile.userID isEqualToString:@"2"]) {
+        sectionHeaderView.headerLabel.text = @"recent history".uppercaseString;
+    }
+
+    return sectionHeaderView;
 }
 
 - (CGFloat)tableView:(UITableView *)tableView heightForRowAtIndexPath:(NSIndexPath *)indexPath
@@ -96,6 +110,7 @@
         NSLog(@"JSON: %@", responseObject);
         self.profile = [[Profile alloc] initWithDict:responseObject];
         [self refreshUIWithProfile:self.profile];
+        [self.historyTableView reloadData];
     } failure:^(NSURLSessionTask *operation, NSError *error) {
         NSLog(@"Error: %@", error);
     }];

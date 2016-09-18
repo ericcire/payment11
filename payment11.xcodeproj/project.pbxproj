@@ -23,6 +23,24 @@
 		AE605C431D8DD95200DBFDEF /* HistoryTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = AE605C421D8DD95200DBFDEF /* HistoryTableViewCell.m */; };
 		AE605C461D8DE0EA00DBFDEF /* Constant.m in Sources */ = {isa = PBXBuildFile; fileRef = AE605C451D8DE0EA00DBFDEF /* Constant.m */; };
 		AE605C491D8DF76300DBFDEF /* Profile.m in Sources */ = {isa = PBXBuildFile; fileRef = AE605C481D8DF76300DBFDEF /* Profile.m */; };
+		AE605C4D1D8E0B8300DBFDEF /* SecondViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AE605C121D8D652400DBFDEF /* SecondViewController.m */; };
+		AE605C4E1D8E0B8300DBFDEF /* ScanViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AE605C3F1D8D6ED700DBFDEF /* ScanViewController.m */; };
+		AE605C4F1D8E0B8300DBFDEF /* Constant.m in Sources */ = {isa = PBXBuildFile; fileRef = AE605C451D8DE0EA00DBFDEF /* Constant.m */; };
+		AE605C501D8E0B8300DBFDEF /* HistoryTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = AE605C421D8DD95200DBFDEF /* HistoryTableViewCell.m */; };
+		AE605C511D8E0B8300DBFDEF /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = AE605C0C1D8D652400DBFDEF /* AppDelegate.m */; };
+		AE605C521D8E0B8300DBFDEF /* Profile.m in Sources */ = {isa = PBXBuildFile; fileRef = AE605C481D8DF76300DBFDEF /* Profile.m */; };
+		AE605C531D8E0B8300DBFDEF /* ParentProfileViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AE605C0F1D8D652400DBFDEF /* ParentProfileViewController.m */; };
+		AE605C541D8E0B8300DBFDEF /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = AE605C091D8D652400DBFDEF /* main.m */; };
+		AE605C561D8E0B8300DBFDEF /* Pods_payment11.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D5B42233004FE9FBD510EE14 /* Pods_payment11.framework */; };
+		AE605C581D8E0B8300DBFDEF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AE605C191D8D652400DBFDEF /* LaunchScreen.storyboard */; };
+		AE605C591D8E0B8300DBFDEF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AE605C171D8D652400DBFDEF /* Assets.xcassets */; };
+		AE605C5A1D8E0B8300DBFDEF /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AE605C141D8D652400DBFDEF /* Main.storyboard */; };
+		AE605C631D8E0BC200DBFDEF /* KidStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AE605C621D8E0BC200DBFDEF /* KidStoryboard.storyboard */; };
+		AE65C8101D8E1E7100FB1B12 /* KidStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AE605C621D8E0BC200DBFDEF /* KidStoryboard.storyboard */; };
+		AE65C8121D8E225100FB1B12 /* SectionHeaderView.xib in Resources */ = {isa = PBXBuildFile; fileRef = AE65C8111D8E225100FB1B12 /* SectionHeaderView.xib */; };
+		AE65C8131D8E225100FB1B12 /* SectionHeaderView.xib in Resources */ = {isa = PBXBuildFile; fileRef = AE65C8111D8E225100FB1B12 /* SectionHeaderView.xib */; };
+		AE65C8161D8E24C100FB1B12 /* SectionHeaderView.m in Sources */ = {isa = PBXBuildFile; fileRef = AE65C8151D8E24C100FB1B12 /* SectionHeaderView.m */; };
+		AE65C8171D8E24C100FB1B12 /* SectionHeaderView.m in Sources */ = {isa = PBXBuildFile; fileRef = AE65C8151D8E24C100FB1B12 /* SectionHeaderView.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -73,6 +91,12 @@
 		AE605C451D8DE0EA00DBFDEF /* Constant.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Constant.m; sourceTree = "<group>"; };
 		AE605C471D8DF76300DBFDEF /* Profile.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Profile.h; sourceTree = "<group>"; };
 		AE605C481D8DF76300DBFDEF /* Profile.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Profile.m; sourceTree = "<group>"; };
+		AE605C601D8E0B8300DBFDEF /* payment11_kids.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = payment11_kids.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		AE605C611D8E0B8400DBFDEF /* payment11 copy-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = "payment11 copy-Info.plist"; path = "/Users/ericyu/BitwiseHack/payment11/payment11 copy-Info.plist"; sourceTree = "<absolute>"; };
+		AE605C621D8E0BC200DBFDEF /* KidStoryboard.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = KidStoryboard.storyboard; sourceTree = "<group>"; };
+		AE65C8111D8E225100FB1B12 /* SectionHeaderView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SectionHeaderView.xib; sourceTree = "<group>"; };
+		AE65C8141D8E24C100FB1B12 /* SectionHeaderView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SectionHeaderView.h; sourceTree = "<group>"; };
+		AE65C8151D8E24C100FB1B12 /* SectionHeaderView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SectionHeaderView.m; sourceTree = "<group>"; };
 		C27ED7DDA72F96F5A1F2B304 /* Pods-payment11.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-payment11.debug.xcconfig"; path = "Pods/Target Support Files/Pods-payment11/Pods-payment11.debug.xcconfig"; sourceTree = "<group>"; };
 		C38CC455A52D0EDBE18FEF96 /* Pods-payment11UITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-payment11UITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-payment11UITests/Pods-payment11UITests.release.xcconfig"; sourceTree = "<group>"; };
 		D2EF9282BB243EE8B59E39DF /* Pods-payment11UITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-payment11UITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-payment11UITests/Pods-payment11UITests.debug.xcconfig"; sourceTree = "<group>"; };
@@ -105,6 +129,14 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		AE605C551D8E0B8300DBFDEF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AE605C561D8E0B8300DBFDEF /* Pods_payment11.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
@@ -127,6 +159,7 @@
 				AE605C061D8D652400DBFDEF /* Products */,
 				DDCA02D82804870C5F591D98 /* Pods */,
 				1A54228ED989DDE8D84F1ABB /* Frameworks */,
+				AE605C611D8E0B8400DBFDEF /* payment11 copy-Info.plist */,
 			);
 			sourceTree = "<group>";
 		};
@@ -136,6 +169,7 @@
 				AE605C051D8D652400DBFDEF /* payment11.app */,
 				AE605C211D8D652400DBFDEF /* payment11Tests.xctest */,
 				AE605C2C1D8D652400DBFDEF /* payment11UITests.xctest */,
+				AE605C601D8E0B8300DBFDEF /* payment11_kids.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -151,7 +185,6 @@
 				AE605C121D8D652400DBFDEF /* SecondViewController.m */,
 				AE605C3E1D8D6ED700DBFDEF /* ScanViewController.h */,
 				AE605C3F1D8D6ED700DBFDEF /* ScanViewController.m */,
-				AE605C141D8D652400DBFDEF /* Main.storyboard */,
 				AE605C171D8D652400DBFDEF /* Assets.xcassets */,
 				AE605C191D8D652400DBFDEF /* LaunchScreen.storyboard */,
 				AE605C1C1D8D652400DBFDEF /* Info.plist */,
@@ -162,6 +195,11 @@
 				AE605C451D8DE0EA00DBFDEF /* Constant.m */,
 				AE605C471D8DF76300DBFDEF /* Profile.h */,
 				AE605C481D8DF76300DBFDEF /* Profile.m */,
+				AE605C621D8E0BC200DBFDEF /* KidStoryboard.storyboard */,
+				AE605C141D8D652400DBFDEF /* Main.storyboard */,
+				AE65C8111D8E225100FB1B12 /* SectionHeaderView.xib */,
+				AE65C8141D8E24C100FB1B12 /* SectionHeaderView.h */,
+				AE65C8151D8E24C100FB1B12 /* SectionHeaderView.m */,
 			);
 			path = payment11;
 			sourceTree = "<group>";
@@ -269,6 +307,26 @@
 			productReference = AE605C2C1D8D652400DBFDEF /* payment11UITests.xctest */;
 			productType = "com.apple.product-type.bundle.ui-testing";
 		};
+		AE605C4A1D8E0B8300DBFDEF /* payment11_kids */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AE605C5D1D8E0B8300DBFDEF /* Build configuration list for PBXNativeTarget "payment11_kids" */;
+			buildPhases = (
+				AE605C4B1D8E0B8300DBFDEF /* [CP] Check Pods Manifest.lock */,
+				AE605C4C1D8E0B8300DBFDEF /* Sources */,
+				AE605C551D8E0B8300DBFDEF /* Frameworks */,
+				AE605C571D8E0B8300DBFDEF /* Resources */,
+				AE605C5B1D8E0B8300DBFDEF /* [CP] Embed Pods Frameworks */,
+				AE605C5C1D8E0B8300DBFDEF /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = payment11_kids;
+			productName = payment11;
+			productReference = AE605C601D8E0B8300DBFDEF /* payment11_kids.app */;
+			productType = "com.apple.product-type.application";
+		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -290,6 +348,9 @@
 						CreatedOnToolsVersion = 7.3.1;
 						TestTargetID = AE605C041D8D652400DBFDEF;
 					};
+					AE605C4A1D8E0B8300DBFDEF = {
+						DevelopmentTeam = U5D3PJ3677;
+					};
 				};
 			};
 			buildConfigurationList = AE605C001D8D652400DBFDEF /* Build configuration list for PBXProject "payment11" */;
@@ -306,6 +367,7 @@
 			projectRoot = "";
 			targets = (
 				AE605C041D8D652400DBFDEF /* payment11 */,
+				AE605C4A1D8E0B8300DBFDEF /* payment11_kids */,
 				AE605C201D8D652400DBFDEF /* payment11Tests */,
 				AE605C2B1D8D652400DBFDEF /* payment11UITests */,
 			);
@@ -317,7 +379,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AE605C631D8E0BC200DBFDEF /* KidStoryboard.storyboard in Resources */,
 				AE605C1B1D8D652400DBFDEF /* LaunchScreen.storyboard in Resources */,
+				AE65C8121D8E225100FB1B12 /* SectionHeaderView.xib in Resources */,
 				AE605C181D8D652400DBFDEF /* Assets.xcassets in Resources */,
 				AE605C161D8D652400DBFDEF /* Main.storyboard in Resources */,
 			);
@@ -334,6 +398,18 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AE605C571D8E0B8300DBFDEF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AE65C8101D8E1E7100FB1B12 /* KidStoryboard.storyboard in Resources */,
+				AE605C581D8E0B8300DBFDEF /* LaunchScreen.storyboard in Resources */,
+				AE65C8131D8E225100FB1B12 /* SectionHeaderView.xib in Resources */,
+				AE605C591D8E0B8300DBFDEF /* Assets.xcassets in Resources */,
+				AE605C5A1D8E0B8300DBFDEF /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -445,6 +521,51 @@
 			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-payment11UITests/Pods-payment11UITests-resources.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
+		AE605C4B1D8E0B8300DBFDEF /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		AE605C5B1D8E0B8300DBFDEF /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-payment11/Pods-payment11-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		AE605C5C1D8E0B8300DBFDEF /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-payment11/Pods-payment11-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
 		F3D7C69AACD41D38EB71D75A /* [CP] Embed Pods Frameworks */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
@@ -468,6 +589,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				AE605C131D8D652400DBFDEF /* SecondViewController.m in Sources */,
+				AE65C8161D8E24C100FB1B12 /* SectionHeaderView.m in Sources */,
 				AE605C401D8D6ED700DBFDEF /* ScanViewController.m in Sources */,
 				AE605C461D8DE0EA00DBFDEF /* Constant.m in Sources */,
 				AE605C431D8DD95200DBFDEF /* HistoryTableViewCell.m in Sources */,
@@ -491,6 +613,22 @@
 			buildActionMask = 2147483647;
 			files = (
 				AE605C311D8D652400DBFDEF /* payment11UITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AE605C4C1D8E0B8300DBFDEF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AE605C4D1D8E0B8300DBFDEF /* SecondViewController.m in Sources */,
+				AE65C8171D8E24C100FB1B12 /* SectionHeaderView.m in Sources */,
+				AE605C4E1D8E0B8300DBFDEF /* ScanViewController.m in Sources */,
+				AE605C4F1D8E0B8300DBFDEF /* Constant.m in Sources */,
+				AE605C501D8E0B8300DBFDEF /* HistoryTableViewCell.m in Sources */,
+				AE605C511D8E0B8300DBFDEF /* AppDelegate.m in Sources */,
+				AE605C521D8E0B8300DBFDEF /* Profile.m in Sources */,
+				AE605C531D8E0B8300DBFDEF /* ParentProfileViewController.m in Sources */,
+				AE605C541D8E0B8300DBFDEF /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -695,6 +833,38 @@
 			};
 			name = Release;
 		};
+		AE605C5E1D8E0B8300DBFDEF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C27ED7DDA72F96F5A1F2B304 /* Pods-payment11.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				INFOPLIST_FILE = "payment11 copy-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.eric.qa.kids.payment11;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+			};
+			name = Debug;
+		};
+		AE605C5F1D8E0B8300DBFDEF /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 93C4CEF099A5DE35A0368DE0 /* Pods-payment11.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				INFOPLIST_FILE = "payment11 copy-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.eric.qa.kids.payment11;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -730,6 +900,15 @@
 			buildConfigurations = (
 				AE605C3C1D8D652400DBFDEF /* Debug */,
 				AE605C3D1D8D652400DBFDEF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AE605C5D1D8E0B8300DBFDEF /* Build configuration list for PBXNativeTarget "payment11_kids" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AE605C5E1D8E0B8300DBFDEF /* Debug */,
+				AE605C5F1D8E0B8300DBFDEF /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
