@@ -23,3 +23,16 @@ target 'payment11' do
   end
 
 end
+
+target 'payment11_kids' do
+    # Uncomment this line if you're using Swift or would like to use dynamic frameworks
+    use_frameworks!
+    
+    # Pods for payment11
+    pod 'QRCodeReaderViewController'
+    pod 'AFNetworking'
+    pod 'YLProgressBar'
+    pod 'JGProgressHUD'
+    pod 'SDWebImage'
+    
+end

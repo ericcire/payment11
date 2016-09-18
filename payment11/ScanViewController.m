@@ -44,8 +44,15 @@
     [reader stopScanning];
     
     [self dismissViewControllerAnimated:YES completion:^{
-        UIAlertView *alert = [[UIAlertView alloc] initWithTitle:@"QRCodeReader" message:result delegate:nil cancelButtonTitle:@"OK" otherButtonTitles:nil];
-        [alert show];
+        if ([result isEqualToString:@"not allow"]){
+            UIAlertView *alert = [[UIAlertView alloc] initWithTitle:@"Error" message:@"You are not allow to purchase in this shop" delegate:nil cancelButtonTitle:@"OK" otherButtonTitles:nil];
+            
+            [alert show];
+        } else if ([result isEqualToString:@"allow"]){
+            UIAlertView *alert = [[UIAlertView alloc] initWithTitle:@"Payment Unlocked!" message:@"Payment is unlocked!" delegate:nil cancelButtonTitle:@"OK" otherButtonTitles:nil];
+            
+            [alert show];
+        }
     }];
 }
 

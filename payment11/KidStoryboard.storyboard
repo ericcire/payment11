@@ -77,7 +77,7 @@
         <!--Payment-->
         <scene sceneID="CqY-yj-fSq">
             <objects>
-                <viewController id="s0p-gL-PJH" sceneMemberID="viewController">
+                <viewController id="s0p-gL-PJH" customClass="ScanViewController" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="SBP-e9-lnJ"/>
                         <viewControllerLayoutGuide type="bottom" id="Z9S-l7-Wvp"/>
@@ -85,7 +85,23 @@
                     <view key="view" contentMode="scaleToFill" id="fk9-xK-zFQ">
                         <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="q66-R0-lqJ">
+                                <rect key="frame" x="276" y="76" width="48" height="50"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="50" id="jJz-aG-YZ5"/>
+                                </constraints>
+                                <state key="normal" title="Unlock"/>
+                                <connections>
+                                    <action selector="scanButtonDidTap:" destination="s0p-gL-PJH" eventType="touchUpInside" id="fdk-Pa-LE7"/>
+                                </connections>
+                            </button>
+                        </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="q66-R0-lqJ" firstAttribute="top" secondItem="SBP-e9-lnJ" secondAttribute="bottom" constant="56" id="BAd-Ov-HuH"/>
+                            <constraint firstItem="q66-R0-lqJ" firstAttribute="centerX" secondItem="fk9-xK-zFQ" secondAttribute="centerX" id="NsK-A6-f2l"/>
+                        </constraints>
                     </view>
                     <tabBarItem key="tabBarItem" title="Payment" image="payment" selectedImage="payment_on" id="b6W-QB-zff"/>
                 </viewController>

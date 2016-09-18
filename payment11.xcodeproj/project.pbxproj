@@ -41,6 +41,27 @@
 		AE65C8131D8E225100FB1B12 /* SectionHeaderView.xib in Resources */ = {isa = PBXBuildFile; fileRef = AE65C8111D8E225100FB1B12 /* SectionHeaderView.xib */; };
 		AE65C8161D8E24C100FB1B12 /* SectionHeaderView.m in Sources */ = {isa = PBXBuildFile; fileRef = AE65C8151D8E24C100FB1B12 /* SectionHeaderView.m */; };
 		AE65C8171D8E24C100FB1B12 /* SectionHeaderView.m in Sources */ = {isa = PBXBuildFile; fileRef = AE65C8151D8E24C100FB1B12 /* SectionHeaderView.m */; };
+		AE65C8231D8E2A1800FB1B12 /* PurchaseDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AE65C8211D8E2A1800FB1B12 /* PurchaseDetailViewController.m */; };
+		AE65C8241D8E2A1800FB1B12 /* PurchaseDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AE65C8211D8E2A1800FB1B12 /* PurchaseDetailViewController.m */; };
+		AE65C8251D8E2A1800FB1B12 /* PurchaseDetailViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = AE65C8221D8E2A1800FB1B12 /* PurchaseDetailViewController.xib */; };
+		AE65C8261D8E2A1800FB1B12 /* PurchaseDetailViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = AE65C8221D8E2A1800FB1B12 /* PurchaseDetailViewController.xib */; };
+		AE65C8281D8E2D3400FB1B12 /* PurchaseListHeaderView.xib in Resources */ = {isa = PBXBuildFile; fileRef = AE65C8271D8E2D3400FB1B12 /* PurchaseListHeaderView.xib */; };
+		AE65C8291D8E2D3400FB1B12 /* PurchaseListHeaderView.xib in Resources */ = {isa = PBXBuildFile; fileRef = AE65C8271D8E2D3400FB1B12 /* PurchaseListHeaderView.xib */; };
+		AE65C82C1D8E2D4800FB1B12 /* PurchaseListHeaderView.m in Sources */ = {isa = PBXBuildFile; fileRef = AE65C82B1D8E2D4800FB1B12 /* PurchaseListHeaderView.m */; };
+		AE65C82D1D8E2D4800FB1B12 /* PurchaseListHeaderView.m in Sources */ = {isa = PBXBuildFile; fileRef = AE65C82B1D8E2D4800FB1B12 /* PurchaseListHeaderView.m */; };
+		AE65C8311D8E33A900FB1B12 /* PurchasedItemTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = AE65C82F1D8E33A900FB1B12 /* PurchasedItemTableViewCell.m */; };
+		AE65C8321D8E33A900FB1B12 /* PurchasedItemTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = AE65C82F1D8E33A900FB1B12 /* PurchasedItemTableViewCell.m */; };
+		AE65C8331D8E33A900FB1B12 /* PurchasedItemTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = AE65C8301D8E33A900FB1B12 /* PurchasedItemTableViewCell.xib */; };
+		AE65C8341D8E33A900FB1B12 /* PurchasedItemTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = AE65C8301D8E33A900FB1B12 /* PurchasedItemTableViewCell.xib */; };
+		AE65C8371D8E38B300FB1B12 /* PurchasedItem.m in Sources */ = {isa = PBXBuildFile; fileRef = AE65C8361D8E38B300FB1B12 /* PurchasedItem.m */; };
+		AE65C8381D8E38B300FB1B12 /* PurchasedItem.m in Sources */ = {isa = PBXBuildFile; fileRef = AE65C8361D8E38B300FB1B12 /* PurchasedItem.m */; };
+		AE65C83C1D8E399200FB1B12 /* PurchasingSummaryTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = AE65C83A1D8E399200FB1B12 /* PurchasingSummaryTableViewCell.m */; };
+		AE65C83D1D8E399200FB1B12 /* PurchasingSummaryTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = AE65C83A1D8E399200FB1B12 /* PurchasingSummaryTableViewCell.m */; };
+		AE65C83E1D8E399200FB1B12 /* PurchasingSummaryTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = AE65C83B1D8E399200FB1B12 /* PurchasingSummaryTableViewCell.xib */; };
+		AE65C83F1D8E399200FB1B12 /* PurchasingSummaryTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = AE65C83B1D8E399200FB1B12 /* PurchasingSummaryTableViewCell.xib */; };
+		AE65C8421D8E3CB700FB1B12 /* PurchasedDetail.m in Sources */ = {isa = PBXBuildFile; fileRef = AE65C8411D8E3CB700FB1B12 /* PurchasedDetail.m */; };
+		AE65C8431D8E3CB700FB1B12 /* PurchasedDetail.m in Sources */ = {isa = PBXBuildFile; fileRef = AE65C8411D8E3CB700FB1B12 /* PurchasedDetail.m */; };
+		D56C6AC1FD4CCFA3230EF5DC /* Pods_payment11_kids.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2905C663BBC576AE3EA98E9D /* Pods_payment11_kids.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -61,10 +82,13 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		20D7D4B99EC25EF44892C747 /* Pods-payment11_kids.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-payment11_kids.debug.xcconfig"; path = "Pods/Target Support Files/Pods-payment11_kids/Pods-payment11_kids.debug.xcconfig"; sourceTree = "<group>"; };
+		2905C663BBC576AE3EA98E9D /* Pods_payment11_kids.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_payment11_kids.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		2A2708F969F608063C2EDE91 /* Pods-payment11.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-payment11.release.xcconfig"; path = "Pods/Target Support Files/Pods-payment11/Pods-payment11.release.xcconfig"; sourceTree = "<group>"; };
 		3D23A4F4BE3C691864B72C02 /* Pods_payment11UITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_payment11UITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		3EDAC6C35B6ACF10A998976A /* Pods_payment11Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_payment11Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		4B6FBA0301B47C1C64074514 /* Pods-payment11Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-payment11Tests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-payment11Tests/Pods-payment11Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		8483F88BEA569E8E3C052416 /* Pods-payment11_kids.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-payment11_kids.release.xcconfig"; path = "Pods/Target Support Files/Pods-payment11_kids/Pods-payment11_kids.release.xcconfig"; sourceTree = "<group>"; };
 		AE605C051D8D652400DBFDEF /* payment11.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = payment11.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		AE605C091D8D652400DBFDEF /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		AE605C0B1D8D652400DBFDEF /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -97,6 +121,22 @@
 		AE65C8111D8E225100FB1B12 /* SectionHeaderView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SectionHeaderView.xib; sourceTree = "<group>"; };
 		AE65C8141D8E24C100FB1B12 /* SectionHeaderView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SectionHeaderView.h; sourceTree = "<group>"; };
 		AE65C8151D8E24C100FB1B12 /* SectionHeaderView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SectionHeaderView.m; sourceTree = "<group>"; };
+		AE65C8201D8E2A1800FB1B12 /* PurchaseDetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PurchaseDetailViewController.h; sourceTree = "<group>"; };
+		AE65C8211D8E2A1800FB1B12 /* PurchaseDetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PurchaseDetailViewController.m; sourceTree = "<group>"; };
+		AE65C8221D8E2A1800FB1B12 /* PurchaseDetailViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = PurchaseDetailViewController.xib; sourceTree = "<group>"; };
+		AE65C8271D8E2D3400FB1B12 /* PurchaseListHeaderView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = PurchaseListHeaderView.xib; sourceTree = "<group>"; };
+		AE65C82A1D8E2D4800FB1B12 /* PurchaseListHeaderView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PurchaseListHeaderView.h; sourceTree = "<group>"; };
+		AE65C82B1D8E2D4800FB1B12 /* PurchaseListHeaderView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PurchaseListHeaderView.m; sourceTree = "<group>"; };
+		AE65C82E1D8E33A900FB1B12 /* PurchasedItemTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PurchasedItemTableViewCell.h; sourceTree = "<group>"; };
+		AE65C82F1D8E33A900FB1B12 /* PurchasedItemTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PurchasedItemTableViewCell.m; sourceTree = "<group>"; };
+		AE65C8301D8E33A900FB1B12 /* PurchasedItemTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = PurchasedItemTableViewCell.xib; sourceTree = "<group>"; };
+		AE65C8351D8E38B300FB1B12 /* PurchasedItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PurchasedItem.h; sourceTree = "<group>"; };
+		AE65C8361D8E38B300FB1B12 /* PurchasedItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PurchasedItem.m; sourceTree = "<group>"; };
+		AE65C8391D8E399200FB1B12 /* PurchasingSummaryTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PurchasingSummaryTableViewCell.h; sourceTree = "<group>"; };
+		AE65C83A1D8E399200FB1B12 /* PurchasingSummaryTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PurchasingSummaryTableViewCell.m; sourceTree = "<group>"; };
+		AE65C83B1D8E399200FB1B12 /* PurchasingSummaryTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = PurchasingSummaryTableViewCell.xib; sourceTree = "<group>"; };
+		AE65C8401D8E3CB700FB1B12 /* PurchasedDetail.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PurchasedDetail.h; sourceTree = "<group>"; };
+		AE65C8411D8E3CB700FB1B12 /* PurchasedDetail.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PurchasedDetail.m; sourceTree = "<group>"; };
 		B5AC242C121B8F4D0072D069 /* Pods-payment11.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-payment11.debug.xcconfig"; path = "Pods/Target Support Files/Pods-payment11/Pods-payment11.debug.xcconfig"; sourceTree = "<group>"; };
 		C38CC455A52D0EDBE18FEF96 /* Pods-payment11UITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-payment11UITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-payment11UITests/Pods-payment11UITests.release.xcconfig"; sourceTree = "<group>"; };
 		D2EF9282BB243EE8B59E39DF /* Pods-payment11UITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-payment11UITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-payment11UITests/Pods-payment11UITests.debug.xcconfig"; sourceTree = "<group>"; };
@@ -134,6 +174,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D56C6AC1FD4CCFA3230EF5DC /* Pods_payment11_kids.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -146,6 +187,7 @@
 				D5B42233004FE9FBD510EE14 /* Pods_payment11.framework */,
 				3EDAC6C35B6ACF10A998976A /* Pods_payment11Tests.framework */,
 				3D23A4F4BE3C691864B72C02 /* Pods_payment11UITests.framework */,
+				2905C663BBC576AE3EA98E9D /* Pods_payment11_kids.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -200,6 +242,22 @@
 				AE65C8111D8E225100FB1B12 /* SectionHeaderView.xib */,
 				AE65C8141D8E24C100FB1B12 /* SectionHeaderView.h */,
 				AE65C8151D8E24C100FB1B12 /* SectionHeaderView.m */,
+				AE65C8201D8E2A1800FB1B12 /* PurchaseDetailViewController.h */,
+				AE65C8211D8E2A1800FB1B12 /* PurchaseDetailViewController.m */,
+				AE65C8221D8E2A1800FB1B12 /* PurchaseDetailViewController.xib */,
+				AE65C8271D8E2D3400FB1B12 /* PurchaseListHeaderView.xib */,
+				AE65C82A1D8E2D4800FB1B12 /* PurchaseListHeaderView.h */,
+				AE65C82B1D8E2D4800FB1B12 /* PurchaseListHeaderView.m */,
+				AE65C82E1D8E33A900FB1B12 /* PurchasedItemTableViewCell.h */,
+				AE65C82F1D8E33A900FB1B12 /* PurchasedItemTableViewCell.m */,
+				AE65C8301D8E33A900FB1B12 /* PurchasedItemTableViewCell.xib */,
+				AE65C8351D8E38B300FB1B12 /* PurchasedItem.h */,
+				AE65C8361D8E38B300FB1B12 /* PurchasedItem.m */,
+				AE65C8391D8E399200FB1B12 /* PurchasingSummaryTableViewCell.h */,
+				AE65C83A1D8E399200FB1B12 /* PurchasingSummaryTableViewCell.m */,
+				AE65C83B1D8E399200FB1B12 /* PurchasingSummaryTableViewCell.xib */,
+				AE65C8401D8E3CB700FB1B12 /* PurchasedDetail.h */,
+				AE65C8411D8E3CB700FB1B12 /* PurchasedDetail.m */,
 			);
 			path = payment11;
 			sourceTree = "<group>";
@@ -239,6 +297,8 @@
 				C38CC455A52D0EDBE18FEF96 /* Pods-payment11UITests.release.xcconfig */,
 				B5AC242C121B8F4D0072D069 /* Pods-payment11.debug.xcconfig */,
 				2A2708F969F608063C2EDE91 /* Pods-payment11.release.xcconfig */,
+				20D7D4B99EC25EF44892C747 /* Pods-payment11_kids.debug.xcconfig */,
+				8483F88BEA569E8E3C052416 /* Pods-payment11_kids.release.xcconfig */,
 			);
 			name = Pods;
 			sourceTree = "<group>";
@@ -379,10 +439,14 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AE65C8331D8E33A900FB1B12 /* PurchasedItemTableViewCell.xib in Resources */,
 				AE605C631D8E0BC200DBFDEF /* KidStoryboard.storyboard in Resources */,
 				AE605C1B1D8D652400DBFDEF /* LaunchScreen.storyboard in Resources */,
+				AE65C83E1D8E399200FB1B12 /* PurchasingSummaryTableViewCell.xib in Resources */,
 				AE65C8121D8E225100FB1B12 /* SectionHeaderView.xib in Resources */,
 				AE605C181D8D652400DBFDEF /* Assets.xcassets in Resources */,
+				AE65C8251D8E2A1800FB1B12 /* PurchaseDetailViewController.xib in Resources */,
+				AE65C8281D8E2D3400FB1B12 /* PurchaseListHeaderView.xib in Resources */,
 				AE605C161D8D652400DBFDEF /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -405,10 +469,14 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AE65C8341D8E33A900FB1B12 /* PurchasedItemTableViewCell.xib in Resources */,
 				AE65C8101D8E1E7100FB1B12 /* KidStoryboard.storyboard in Resources */,
 				AE605C581D8E0B8300DBFDEF /* LaunchScreen.storyboard in Resources */,
+				AE65C83F1D8E399200FB1B12 /* PurchasingSummaryTableViewCell.xib in Resources */,
 				AE65C8131D8E225100FB1B12 /* SectionHeaderView.xib in Resources */,
 				AE605C591D8E0B8300DBFDEF /* Assets.xcassets in Resources */,
+				AE65C8261D8E2A1800FB1B12 /* PurchaseDetailViewController.xib in Resources */,
+				AE65C8291D8E2D3400FB1B12 /* PurchaseListHeaderView.xib in Resources */,
 				AE605C5A1D8E0B8300DBFDEF /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -548,7 +616,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-payment11/Pods-payment11-frameworks.sh\"\n";
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-payment11_kids/Pods-payment11_kids-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 		AE605C5C1D8E0B8300DBFDEF /* [CP] Copy Pods Resources */ = {
@@ -563,7 +631,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-payment11/Pods-payment11-resources.sh\"\n";
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-payment11_kids/Pods-payment11_kids-resources.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 		F3D7C69AACD41D38EB71D75A /* [CP] Embed Pods Frameworks */ = {
@@ -589,14 +657,20 @@
 			buildActionMask = 2147483647;
 			files = (
 				AE605C131D8D652400DBFDEF /* SecondViewController.m in Sources */,
+				AE65C82C1D8E2D4800FB1B12 /* PurchaseListHeaderView.m in Sources */,
 				AE65C8161D8E24C100FB1B12 /* SectionHeaderView.m in Sources */,
 				AE605C401D8D6ED700DBFDEF /* ScanViewController.m in Sources */,
+				AE65C8311D8E33A900FB1B12 /* PurchasedItemTableViewCell.m in Sources */,
+				AE65C8371D8E38B300FB1B12 /* PurchasedItem.m in Sources */,
 				AE605C461D8DE0EA00DBFDEF /* Constant.m in Sources */,
+				AE65C8231D8E2A1800FB1B12 /* PurchaseDetailViewController.m in Sources */,
 				AE605C431D8DD95200DBFDEF /* HistoryTableViewCell.m in Sources */,
 				AE605C0D1D8D652400DBFDEF /* AppDelegate.m in Sources */,
 				AE605C491D8DF76300DBFDEF /* Profile.m in Sources */,
 				AE605C101D8D652400DBFDEF /* ParentProfileViewController.m in Sources */,
+				AE65C83C1D8E399200FB1B12 /* PurchasingSummaryTableViewCell.m in Sources */,
 				AE605C0A1D8D652400DBFDEF /* main.m in Sources */,
+				AE65C8421D8E3CB700FB1B12 /* PurchasedDetail.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -621,14 +695,20 @@
 			buildActionMask = 2147483647;
 			files = (
 				AE605C4D1D8E0B8300DBFDEF /* SecondViewController.m in Sources */,
+				AE65C82D1D8E2D4800FB1B12 /* PurchaseListHeaderView.m in Sources */,
 				AE65C8171D8E24C100FB1B12 /* SectionHeaderView.m in Sources */,
 				AE605C4E1D8E0B8300DBFDEF /* ScanViewController.m in Sources */,
+				AE65C8321D8E33A900FB1B12 /* PurchasedItemTableViewCell.m in Sources */,
+				AE65C8381D8E38B300FB1B12 /* PurchasedItem.m in Sources */,
 				AE605C4F1D8E0B8300DBFDEF /* Constant.m in Sources */,
+				AE65C8241D8E2A1800FB1B12 /* PurchaseDetailViewController.m in Sources */,
 				AE605C501D8E0B8300DBFDEF /* HistoryTableViewCell.m in Sources */,
 				AE605C511D8E0B8300DBFDEF /* AppDelegate.m in Sources */,
 				AE605C521D8E0B8300DBFDEF /* Profile.m in Sources */,
 				AE605C531D8E0B8300DBFDEF /* ParentProfileViewController.m in Sources */,
+				AE65C83D1D8E399200FB1B12 /* PurchasingSummaryTableViewCell.m in Sources */,
 				AE605C541D8E0B8300DBFDEF /* main.m in Sources */,
+				AE65C8431D8E3CB700FB1B12 /* PurchasedDetail.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -835,6 +915,7 @@
 		};
 		AE605C5E1D8E0B8300DBFDEF /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 20D7D4B99EC25EF44892C747 /* Pods-payment11_kids.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
@@ -850,6 +931,7 @@
 		};
 		AE605C5F1D8E0B8300DBFDEF /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8483F88BEA569E8E3C052416 /* Pods-payment11_kids.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
